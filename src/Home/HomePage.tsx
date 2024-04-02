@@ -4,7 +4,7 @@ import { Header } from "../Header/Header";
 import { SearchBar } from "../SearchBar/SearchBar";
 import { HomePageSvg } from "../Utilities/HomePageSvg";
 
-const HomePage = () => {
+const HomePage: React.FC = () => {
   return (
     <div className="container flex place-content-center max-w-full ">
       <div>

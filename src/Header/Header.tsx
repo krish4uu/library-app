@@ -1,7 +1,7 @@
 import React from "react";
 import { IoMdAddCircle } from "react-icons/io";
 
-export const Header = () => {
+export const Header: React.FC = () => {
   return (
     <div className="flex justify-between mt-14 pt-2">
       <div className="flex gap-6">
@@ -10,10 +10,10 @@ export const Header = () => {
           <h1>Notes</h1>
         </header>
       </div>
-
       <button>
         <IoMdAddCircle size={`3rem`} fill="lightgreen" />
       </button>
     </div>
   );
 };
+

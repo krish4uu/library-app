@@ -1,7 +1,7 @@
 import React from "react";
 import { IoIosSearch } from "react-icons/io";
 
-export const SearchBar = () => {
+export const SearchBar: React.FC = () => {
   return (
     <div className="flex">
       <form className="flex gap-6 mt-4 w-full">
