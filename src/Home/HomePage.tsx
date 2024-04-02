@@ -6,8 +6,8 @@ import { HomePageSvg } from "../Utilities/HomePageSvg";
 
 const HomePage: React.FC = () => {
   return (
-    <div className="container flex place-content-center max-w-full ">
-      <div>
+    <div className="container flex max-w-full p-0 place-content-center">
+      <div className="w-screen md:w-auto p-2 pl-6 pr-6 md:p-4">
         <div>
           <Header />
           <SearchBar />
