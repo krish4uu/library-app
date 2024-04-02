@@ -37,7 +37,7 @@ export const List: React.FC = () => {
               <button
                 type="submit"
                 className={`flex items-start  ${
-                  hoverStates[item.id] ? "visible" : "invisible"
+                  hoverStates[item.id] ? "lg:visible" : "lg:invisible"
                 }`}
               >
                 <TfiPinAlt
@@ -53,7 +53,7 @@ export const List: React.FC = () => {
                 <button
                   type="submit"
                   className={`flex items-start ${
-                    hoverStates[item.id] ? "visible" : "invisible"
+                    hoverStates[item.id] ? "lg:visible" : "lg:invisible"
                   }`}
                 >
                   <MdDeleteOutline
